@@ -1,0 +1,19 @@
+[project]
+name = "jobcv"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "email-validator>=2.3.0",
+    "flask-cors>=6.0.1",
+    "flask>=3.1.2",
+    "flask-sqlalchemy>=3.1.1",
+    "gunicorn>=23.0.0",
+    "langchain>=0.3.27",
+    "langchain-groq>=0.3.7",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+    "langchain-community>=0.3.29",
+    "pypdf2>=3.0.1",
+    "faiss-cpu>=1.12.0",
+]
+
